@@ -1,0 +1,97 @@
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+::selection {
+    color: #f1f1f1;
+    background:#d389d3e8;
+  }
+  
+body {
+    line-height: 1;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images.pexels.com/photos/7130545/pexels-photo-7130545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.text {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Bebas Neue', 'sans serif';
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(219, 168, 212);
+}
+
+.chrono {
+    background-color: #0081a7;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    box-shadow: 0 5px 5px 0 #333;
+}
+
+.time {
+    border: 2px solid #333;
+    background: #00afb9;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px;
+}
+
+.controls {
+    text-align: center;
+    padding: 15px;
+}
+
+.time {
+    font-size: 20px;
+    color: #fed9b7;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 3px;
+    border: px solid #333;
+    font-size: 20px;
+    font-family: 'Bebas Neue', 'sans serif';
+    background-color: #fed9b7;
+    color: #333;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fed9b7;
+    transform: scale(0.9);
+}
+
