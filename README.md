@@ -1,3 +1,3 @@
-# timer
+# Timer
 
 Stack : HTML, CSS, JavaScript
